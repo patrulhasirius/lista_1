@@ -1,12 +1,17 @@
 #include <stdio.h>
+#include <string.h>
+
 
 int main() {
     char nome[256];
-    printf("Qual é o seu nome?");
+    printf("Qual é o seu nome?\n");
 
-    scanf("%s", nome);
+    fgets(nome, 256, stdin);
 
-    printf("Oi, %s", nome);
+    nome[strlen(nome)-1] = '\0';
+    printf("Oi, ");
+    puts(nome);
+
 
     return 0;
 }
