@@ -4,21 +4,21 @@
 #include <stdio.h>
 
 int main() {
-    double primeiro, segundo, terceiro, quarto;
+    double numeros[4] = {0};
 
     printf("primeiro: ");
-    scanf("%lf", &primeiro);
+    scanf("%lf", &numeros[0]);
 
     printf("segundo: ");
-    scanf("%lf", &segundo);
+    scanf("%lf", &numeros[1]);
 
     printf("primeiro: ");
-    scanf("%lf", &terceiro);
+    scanf("%lf", &numeros[2]);
 
     printf("primeiro: ");
-    scanf("%lf", &quarto);
+    scanf("%lf", &numeros[3]);
 
-    double media = ( primeiro + segundo + terceiro + quarto) /4;
+    double media = ( numeros[0] + numeros[1] + numeros[2] + numeros[3]) /4;
 
     printf("Resultado: %lf\n", media);
 
