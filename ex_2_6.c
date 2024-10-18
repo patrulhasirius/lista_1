@@ -27,7 +27,7 @@ int main() {
         if (strcmp(cidade, capitais[i]) == 0){
             printf("A cidade "),
             fputs(cidade, stdout);
-            printf(" é uma capital da região Sul");
+            printf(" é uma capital da região Sul\n");
             // quebra o loop e dá return cedo
             return 0;
         }
@@ -35,7 +35,7 @@ int main() {
 
     printf("A cidade "),
     fputs(cidade, stdout);
-    printf(" não é uma capital da região Sul");
+    printf(" não é uma capital da região Sul\n");
 
     return 0;
 }
