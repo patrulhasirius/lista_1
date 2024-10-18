@@ -4,7 +4,7 @@ pelo usuário.
 */
 
 #include <stdio.h>
-double const PI = 3.14159265358979323846;
+#include <math.h>
 
 int main() {
     double raio = 0;
@@ -12,8 +12,8 @@ int main() {
     printf("raio: ");
     scanf("%lf", &raio);
 
-    double area = PI * raio * raio;
-    double perimetro  = 2 * PI * raio;
+    double area = M_PI * raio * raio;
+    double perimetro  = 2 * M_PI * raio;
 
     printf("área: %lf\n", area);
     printf("perímetro: %lf\n", perimetro);
