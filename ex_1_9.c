@@ -1,3 +1,7 @@
+/*
+9. resolva uma equação do segundo grau
+*/
+
 #include <math.h>
 #include <stdio.h>
 

@@ -1,3 +1,9 @@
+/*
+4. leia o nome e a idade de uma pessoa. Se a pessoa tiver menos de 18 anos, imprimir
+”[nome] não pode assistir a este filme.” Onde no lugar de [nome] deve sair o nome lido do
+teclado.
+*/
+
 #include <stdio.h>
 #include <string.h>
 

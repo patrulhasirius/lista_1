@@ -1,3 +1,8 @@
+/*
+4. pergunte o nome do usuário e apresente a mensagem ”Oi,...”, seguida pelo nome do
+usuário.
+*/
+
 #include <stdio.h>
 #include <string.h>
 

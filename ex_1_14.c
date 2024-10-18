@@ -1,3 +1,9 @@
+/*
+14. calcule a distância entre dois pontos de coordenadas, respectivamente, (x1, x2) e (x1, x2).
+Tais coordenadas devem ser lidas do teclado. Use a fórmula da distância euclideana entre
+dois pontos.
+*/
+
 #include <math.h>
 #include <stdio.h>
 

@@ -1,3 +1,7 @@
+/*
+15. leia do teclado 3 valores reais e os imprima na tela em ordem crescente.
+*/
+
 #include <stdio.h>
 
 void swap(double* a, double* b) {

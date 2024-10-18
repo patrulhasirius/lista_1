@@ -1,3 +1,8 @@
+/*
+10. solicite o valor de um capital, o prazo de investimento, a taxa de juros, calcule e imprima
+na tela o valor capitalizado.
+*/
+
 #include <math.h>
 #include <stdio.h>
 

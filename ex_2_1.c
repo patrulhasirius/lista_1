@@ -1,3 +1,9 @@
+/*
+1. leia um número e imprima na tela o seu dobro se ele for menor do que 10. Se o número
+for de 10 até 20, imprima a sua metade. Em qualquer outro caso, imprima na tela que o
+número não é válido.
+*/
+
 #include <stdio.h>
 
 int main() {

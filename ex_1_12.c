@@ -1,3 +1,8 @@
+/*
+12. calcule a área de um círculo e o comprimento de sua circunferência cujo raio será informado
+pelo usuário.
+*/
+
 #include <stdio.h>
 double const PI = 3.14159265358979323846;
 

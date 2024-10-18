@@ -1,3 +1,6 @@
+/*
+11. calcule a média aritmética de quatro números fornecidos pelo usuário.
+*/
 #include <stdio.h>
 
 int main() {

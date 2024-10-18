@@ -1,3 +1,6 @@
+/*
+7. refaça o exercício anterior para a progressão geométrica.
+*/
 
 #include <stdio.h>
 #include <math.h>

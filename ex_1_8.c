@@ -1,3 +1,6 @@
+/*
+8. resolva a equação linear a.x = b
+*/
 #include <stdio.h>
 
 int main() {
