@@ -21,4 +21,6 @@ int main() {
         fputs(nome, stdout);
         printf(" não pode assistir o filme\n");
     }
+
+    return 0;
 }

@@ -16,4 +16,6 @@ int main() {
     } else {
         printf("Este número não é múltiplo de 3\n");
     }
+
+    return 0;
 }

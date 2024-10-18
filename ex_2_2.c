@@ -20,4 +20,6 @@ int main() {
     } else {
         printf("O número é ímpar\n");
     }
+
+    return 0;
 }

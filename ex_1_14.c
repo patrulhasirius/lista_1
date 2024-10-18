@@ -30,4 +30,6 @@ int main() {
     double distancia = sqrt(pow(ponto_1.x - ponto_2.x, 2) + pow(ponto_1.y - ponto_2.y, 2));
 
     printf("Distância: %lf\n", distancia);
+
+    return 0;
 }
