@@ -7,22 +7,27 @@ dois pontos.
 #include <math.h>
 #include <stdio.h>
 
+typedef struct {
+    double x;
+    double y;
+} Ponto;
+
 int main() {
-    double ponto1_x, ponto1_y, ponto2_x, ponto2_y;
+    Ponto ponto_1 = {0}, ponto_2 = {0};   
 
     printf("Ponto 1 x: ");
-    scanf("%lf", &ponto1_x);
+    scanf("%lf", &ponto_1.x);
 
     printf("Ponto 1 y: ");
-    scanf("%lf", &ponto1_y);
+    scanf("%lf", &ponto_1.y);
 
     printf("Ponto 2 x: ");
-    scanf("%lf", &ponto2_x);
+    scanf("%lf", &ponto_2.x);
 
     printf("Ponto 2 y: ");
-    scanf("%lf", &ponto2_y);
+    scanf("%lf", &ponto_2.y);
 
-    double distancia = sqrt(pow(ponto1_x - ponto2_x, 2) + pow(ponto1_y - ponto2_y, 2));
+    double distancia = sqrt(pow(ponto_1.x - ponto_2.x, 2) + pow(ponto_1.y - ponto_2.y, 2));
 
     printf("Distância: %lf\n", distancia);
 }
