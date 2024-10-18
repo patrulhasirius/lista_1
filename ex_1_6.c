@@ -6,8 +6,8 @@ primeiro termo e a razão são dados pelo usuário.
 #include <stdio.h>
 
 int main() {
-    int enesimo;
-    double razao, primeiro;
+    int enesimo = 0;
+    double razao = 0, primeiro = 0;
 
     printf("enésimo número: ");
     scanf("%d", &enesimo);

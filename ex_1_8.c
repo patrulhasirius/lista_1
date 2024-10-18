@@ -5,7 +5,7 @@
 
 int main() {
 
-    double a, b;
+    double a = 0, b = 0;
 
     printf("a: ");
     scanf("%lf", &a);

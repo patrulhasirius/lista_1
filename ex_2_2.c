@@ -1,8 +1,14 @@
+/*
+2. leia um número e imprima na tela a mensagem ”O número é par.”se o número lido for
+par e ”O número é impar” se o número lido for ímpar. Em caso de número não inteiros
+ou negativos, imprima na tela ”Este número não ´e válido.”
+*/
+
 #include <math.h>
 #include <stdio.h>
 
 int main() {
-    double numero;
+    double numero = 0;
 
     printf("Número: ");
     scanf("%lf", &numero);

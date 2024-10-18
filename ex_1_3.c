@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 int main() {
-    int first_num;
-    int sec_num;
+    int first_num = 0;
+    int sec_num = 0;
 
     printf("Escreva o primeiro número inteiro\n");
     scanf("%d", &first_num);

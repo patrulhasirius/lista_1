@@ -8,7 +8,7 @@ teclado.
 #include <string.h>
 
 int main() {
-    char nome[256];
+    char nome[256] = {0};
     printf("Nome: ");
     fgets(nome, 256, stdin);
 

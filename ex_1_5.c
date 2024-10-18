@@ -8,7 +8,7 @@ que o valor da hora-aula é R$ 40,00.
 #include <stdio.h>
 const int POR_HORA_CENT = 4000;
 int main() {
-    int horas;
+    int horas = 0;
 
     printf("Número de horas trabalhadas: ");
     scanf("%d", &horas);

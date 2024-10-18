@@ -6,7 +6,7 @@ deste bem, sabendo que sua função de demanda é dada por q = renda/preco.
 #include <stdio.h>
 
 int main() {
-    double renda, preco;
+    double renda = 0, preco = 0;
 
     printf("Renda: ");
     scanf("%lf", &renda);

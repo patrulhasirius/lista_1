@@ -7,7 +7,7 @@ pelo usuário.
 double const PI = 3.14159265358979323846;
 
 int main() {
-    double raio;
+    double raio = 0;
 
     printf("raio: ");
     scanf("%lf", &raio);

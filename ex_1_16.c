@@ -8,7 +8,7 @@ fórmula para calcular o retorno esperado de um ativo qualquer é dada por E(Ri)
 #include <stdio.h>
 
 int main() {
-    double retorno_sem_risco, retorno_mercado, beta;
+    double retorno_sem_risco = 0, retorno_mercado = 0, beta = 0;
 
     printf("Retorno do ativo sem risco: ");
     scanf("%lf", &retorno_sem_risco);

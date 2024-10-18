@@ -8,7 +8,7 @@ usuário.
 
 
 int main() {
-    char nome[256];
+    char nome[256] = {"\0"};
     printf("Qual é o seu nome?\n");
 
     fgets(nome, 256, stdin);

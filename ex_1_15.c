@@ -11,7 +11,7 @@ void swap(double* a, double* b) {
 }
 
 int main() {
-    double a, b, c;
+    double a = 0, b = 0, c = 0;
 
     printf("a: ");
     scanf("%lf", &a);

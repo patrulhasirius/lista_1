@@ -7,8 +7,8 @@ na tela o valor capitalizado.
 #include <stdio.h>
 
 int main() {
-    int prazo;
-    double capital, juros;
+    int prazo = 0;
+    double capital = 0, juros = 0;
 
     printf("prazo: ");
     scanf("%d", &prazo);

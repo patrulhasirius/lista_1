@@ -6,7 +6,7 @@ número é múltiplo de 3” ou ”Este número não é múltiplo de 3” a depe
 #include <stdio.h>
 
 int main() {
-    int numero;
+    int numero = 0;
 
     printf("Número: ");
     scanf("%d", &numero);

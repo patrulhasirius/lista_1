@@ -7,7 +7,7 @@ número não é válido.
 #include <stdio.h>
 
 int main() {
-    int numero;
+    int numero = 0;
 
     printf("Número: ");
     scanf("%d", &numero);
