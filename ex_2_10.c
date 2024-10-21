@@ -9,9 +9,9 @@ determine o salário líquido do empregado.
 double calc_desconto(double bruto) {
     double desconto = 0;
     if (bruto > 5000) {
-            desconto += (bruto - 5000) * 0.35;
-            bruto = 5000;
-        };
+        desconto += (bruto - 5000) * 0.35;
+        bruto = 5000;
+    };
     if (bruto > 2500) {
         desconto += (bruto - 2500) * 0.20;
         bruto = 2500;
