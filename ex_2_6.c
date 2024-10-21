@@ -6,23 +6,32 @@
 #include <string.h>
 #include <ctype.h>
 
+typedef struct {
+    char *buffer;
+    size_t size;
+} Array;
+
 const char *capitais[3] = {"porto alegre", "florianópolis", "curitiba"};
 
 int main() {
-    char cidade[256] = {0};
+    char buffer[256] = {0};
+    Array cidade = {
+        buffer,
+        sizeof(buffer),
+    };
 
     printf("Cidade: ");
-    fgets(cidade, sizeof(cidade) / sizeof(cidade[0]), stdin);
+    fgets(cidade.buffer, cidade.size * sizeof(cidade.buffer[0]) , stdin);
 
     // Quando o usuário aperta Enter uma quebra de linha é adicionada, não queremos isso
-    cidade[strlen(cidade)-1] = '\0';
+    cidade.buffer[strlen(cidade.buffer)-1] = '\0';
 
     int i = 0;
-    for(int i = 0; cidade[i]; i++){
-        cidade[i] = tolower(cidade[i]);
+    for(int i = 0; cidade.buffer[i]; i++){
+        cidade.buffer[i] = tolower(cidade.buffer[i]);
     }
 
-    
+
     for (i = 0; capitais[i]; i++) {
         if (strcmp(cidade, capitais[i]) == 0){
             printf("A cidade "),
