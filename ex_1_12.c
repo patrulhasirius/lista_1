@@ -12,6 +12,7 @@ int main() {
     printf("raio: ");
     scanf("%lf", &raio);
 
+    // o math.h define PI
     double area = M_PI * raio * raio;
     double perimetro  = 2 * M_PI * raio;
 

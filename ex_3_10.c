@@ -1,7 +1,5 @@
 /*
-10. leia dois n´umeros a e b e calcule a potˆencia a
-b
-sem utilizar uma fun¸c˜ao nativa do Python.
+10. leia dois números a e b e calcule a potência a^b sem utilizar uma função nativa do C.
 */
 
 #include <stdio.h>

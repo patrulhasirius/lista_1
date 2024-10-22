@@ -18,6 +18,7 @@ int main() {
     printf("razão: ");
     scanf("%lf", &razao);
 
+    // o cast é pra garantir que o compilador não converta tudo para int
     double final = primeiro + (double)enesimo * razao;
 
     double soma = ((double)enesimo + 1) * ((primeiro + final) / 2);

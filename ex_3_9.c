@@ -1,5 +1,5 @@
 /*
-9. leia 6 n´umeros e imprima o cubo e a raiz c´ubica de cada um deles.
+9. leia 6 números e imprima o cubo e a raiz cúbica de cada um deles.
 */
 
 #include <stdio.h>

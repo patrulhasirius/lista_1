@@ -1,5 +1,5 @@
 /*
-8. imprima na tela a soma dos n´umeros de 1 a 100.
+8. imprima na tela a soma dos números de 1 a 100.
 */
 
 #include <stdio.h>

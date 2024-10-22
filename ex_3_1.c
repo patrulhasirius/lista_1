@@ -1,6 +1,6 @@
 /*
-1. calcule o valor de um polinômio de grau n supondo que o usu´ario informou o grau do
-polinˆomio e os coeficientes na ordem da lista ordenada a = (a0, a1, ..., an−1, an) onde ai
+1. calcule o valor de um polinômio de grau n supondo que o usuário informou o grau do
+polinômio e os coeficientes na ordem da lista ordenada a = (a0, a1, ..., an−1, an) onde ai
 representa o coeficiente do termo de grau i.
 */
 

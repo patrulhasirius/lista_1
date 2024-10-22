@@ -1,5 +1,5 @@
 /*
-4. imprima na tela todos os n´umeros pares entre 0 e 20.
+4. imprima na tela todos os números pares entre 0 e 20.
 */
 
 #include <stdio.h>

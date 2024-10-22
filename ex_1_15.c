@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 
+// que função feia
 void swap(double* a, double* b) {
     double temp = *a;
     *a = *b;

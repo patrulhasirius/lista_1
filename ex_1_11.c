@@ -4,8 +4,10 @@
 #include <stdio.h>
 
 int main() {
+    // array para não ter que criar 4 variáveis
     double numeros[4] = {0};
 
+    // essas 4 operações poderiam ser um loop
     printf("primeiro: ");
     scanf("%lf", &numeros[0]);
 

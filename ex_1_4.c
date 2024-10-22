@@ -13,6 +13,7 @@ int main() {
 
     fgets(nome, 256, stdin);
 
+    // Quando o usuário aperta Enter uma quebra de linha é adicionada, não queremos isso
     nome[strlen(nome)-1] = '\0';
     printf("Oi, ");
     puts(nome);

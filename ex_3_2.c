@@ -1,6 +1,6 @@
 /*
-2. determine a raiz quadrada de um n´umero dado pelo usu´ario, sabendo que o algoritmo de
-para o c´alculo da raiz quadrada do n´umero a ´e dado pela sequˆencia
+2. determine a raiz quadrada de um número dado pelo usuário, sabendo que o algoritmo de
+para o cálculo da raiz quadrada do número a é dado pela sequência
 */
 
 #include <stdio.h>
@@ -15,6 +15,7 @@ int main() {
     u_int  i = 0;
     for(i = 0; i <= 100000; i++) {
         double interm = (resultado + numero / resultado) / 2;
+        // quebra o loop quando chega no limite de precisão do double
         if (interm == resultado) {break;};
         resultado = interm;
     }

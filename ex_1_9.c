@@ -18,6 +18,8 @@ int main() {
     scanf("%lf", &c);
 
     double delta = sqrt( b * b - (4 * a * c));
+
+    // https://pavpanchekha.com/blog/accurate-quadratic.html
     double resultado_1 = (2 * c) / (-b + delta);
     double resultado_2 = (2 * c) / (-b - delta);
 

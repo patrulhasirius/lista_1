@@ -1,6 +1,6 @@
 /*
-5. imprima na tela os 10 primeiros termos de uma progress˜ao aritm´etica cuja raz˜ao ´e dada
-pelo usu´ario.
+5. imprima na tela os 10 primeiros termos de uma progressão aritmética cuja razão é dada
+pelo usuário.
 */
 
 #include <stdio.h>

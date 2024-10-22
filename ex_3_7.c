@@ -1,5 +1,5 @@
 /*
-7. imprima na tela todos os n´umeros pares de 0 a 100.
+7. imprima na tela todos os números pares de 0 a 100.
 */
 
 #include <stdio.h>

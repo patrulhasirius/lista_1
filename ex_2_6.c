@@ -14,6 +14,7 @@ typedef struct {
 const char *capitais[3] = {"porto alegre", "florianópolis", "curitiba"};
 
 int main() {
+    // O C não guarda o tamanho do array, esse struct simplesmente compõe o buffer com o tamanho por conveniência
     char buffer[256] = {0};
     Array cidade = {
         buffer,

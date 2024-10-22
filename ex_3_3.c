@@ -1,5 +1,5 @@
 /*
-3. leia cinco n´umeros e imprima na tela o quadrado de cada um deles
+3. leia cinco números e imprima na tela o quadrado de cada um deles
 */
 
 #include <stdio.h>

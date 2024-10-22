@@ -15,6 +15,7 @@ typedef struct {
 int main() {
     Ponto ponto_1 = {0}, ponto_2 = {0};   
 
+    // essas 4 operações poderiam ser um loop
     printf("Ponto 1 x: ");
     scanf("%lf", &ponto_1.x);
 

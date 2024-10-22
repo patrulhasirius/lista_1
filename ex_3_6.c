@@ -1,5 +1,5 @@
 /*
-6. imprima na tela todos os n´umeros de 1 a 100.
+6. imprima na tela todos os números de 1 a 100.
 */
 
 #include <stdio.h>
