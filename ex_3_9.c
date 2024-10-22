@@ -3,7 +3,6 @@
 */
 
 #include <stdio.h>
-#include <sys/types.h>
 #include <math.h>
 
 
@@ -12,7 +11,7 @@
 int main() {
     double numeros[n] = {0};
 
-    u_int i = 0;
+    int i = 0;
     for(i = 0; i < n; i++) {
         printf("Número %u: ", i + 1);
         scanf("%lf", numeros + i);

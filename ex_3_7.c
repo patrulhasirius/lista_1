@@ -3,11 +3,10 @@
 */
 
 #include <stdio.h>
-#include <sys/types.h>
 
-const u_int n = 100;
+const int n = 100;
 int main() {
-    for(u_int i = 0; i <= 100; i++) {
+    for(int i = 0; i <= 100; i++) {
         if (i % 2 == 0) {
             printf("%u\n", i);
         }

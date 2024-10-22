@@ -10,7 +10,7 @@ teclado.
 int main() {
     char nome[256] = {0};
     printf("Nome: ");
-    fgets(nome, 256, stdin);
+    fgets(nome, sizeof(nome), stdin);
 
     int idade;
     printf("Idade: ");

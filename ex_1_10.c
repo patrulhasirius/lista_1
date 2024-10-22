@@ -19,7 +19,7 @@ int main() {
     printf("juros: ");
     scanf("%lf", &juros);
 
-    double capitalizado = capital * pow((1 + juros), prazo);
+    double capitalizado = capital * powf((1 + juros), prazo);
 
     printf("valor capitalizado: %lf\n", capitalizado);
 

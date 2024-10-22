@@ -34,7 +34,6 @@ int main() {
 
     double salario_liquido = salario_bruto - calc_desconto(salario_bruto);
 
-    printf("%lf", calc_desconto(salario_bruto));
 
     printf("O salário líquido é: %.2lf\n", salario_liquido);
 

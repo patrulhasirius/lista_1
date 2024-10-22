@@ -3,14 +3,13 @@
 */
 
 #include <stdio.h>
-#include <sys/types.h>
 
-const u_int n = 100;
+const int n = 100;
 
 int main() {
     int accum = 0;
 
-    for(u_int i = 0; i <= n; i++) {
+    for(int i = 0; i <= n; i++) {
         accum += i;
     }
 

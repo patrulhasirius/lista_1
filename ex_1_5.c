@@ -7,6 +7,7 @@ que o valor da hora-aula é R$ 40,00.
 
 #include <stdio.h>
 const int POR_HORA_CENT = 4000;
+
 int main() {
     int horas = 0;
 

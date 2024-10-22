@@ -5,14 +5,15 @@
 #include <stdio.h>
 
 int main() {
-    int first_num = 0;
-    int sec_num = 0;
+    double first_num = 0;
+    double sec_num = 0;
 
-    printf("Escreva o primeiro número inteiro\n");
-    scanf("%d", &first_num);
-    printf("Escreva o segundo número inteiro\n");
-    scanf("%d", &sec_num);
-    printf("o resultado é: %d", first_num + sec_num);
+    printf("Escreva o primeiro número: ");
+    scanf("%lf", &first_num);
+    printf("Escreva o segundo número: ");
+    scanf("%lf", &sec_num);
+    
+    printf("o resultado é: %lf\n", first_num + sec_num);
 
     return 0;
 }

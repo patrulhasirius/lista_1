@@ -4,15 +4,14 @@ pelo usuário.
 */
 
 #include <stdio.h>
-#include <sys/types.h>
 
-const u_int n = 10;
+const int n = 10;
 int main() {
     double init = 0, razao = 0;
     printf("Razão: ");
     scanf("%lf", &razao);
 
-    for ( u_int i = 0; i < n; i++) {
+    for ( int i = 0; i < n; i++) {
         printf("%lf\n", init);
         init += razao;        
     }

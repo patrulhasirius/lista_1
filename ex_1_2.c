@@ -3,11 +3,12 @@
 */
 #include <stdio.h>
 
-int main() {
-    int dois = 2;
-    int tres = 3;
+const int dois = 2;
+const int tres = 3;
 
-    printf("%d", dois + tres);
+int main() {
+
+    printf("%d\n", dois + tres);
 
     return 0;
 }

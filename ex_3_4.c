@@ -3,12 +3,11 @@
 */
 
 #include <stdio.h>
-#include <sys/types.h>
 
-const u_int n = 20;
+const int n = 20;
 
 int main() {
-    u_int i = 0;
+    int i = 0;
 
     for(i = 0; i <= n; i++) {
         if (i % 2 == 0) {

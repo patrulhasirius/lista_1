@@ -4,15 +4,15 @@ para o cálculo da raiz quadrada do número a é dado pela sequência
 */
 
 #include <stdio.h>
-#include <sys/types.h>
+
 int main() {
-    u_int numero = 0;
+    int numero = 0;
     double resultado = 10;
 
     printf("Número: ");
     scanf("%u", &numero);
 
-    u_int  i = 0;
+    int  i = 0;
     for(i = 0; i <= 100000; i++) {
         double interm = (resultado + numero / resultado) / 2;
         // quebra o loop quando chega no limite de precisão do double

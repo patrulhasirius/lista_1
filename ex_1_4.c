@@ -8,16 +8,15 @@ usuário.
 
 
 int main() {
-    char nome[256] = {"\0"};
+    char nome[256] = {0};
     printf("Qual é o seu nome?\n");
 
-    fgets(nome, 256, stdin);
+    fgets(nome, sizeof(nome), stdin);
 
     // Quando o usuário aperta Enter uma quebra de linha é adicionada, não queremos isso
     nome[strlen(nome)-1] = '\0';
     printf("Oi, ");
     puts(nome);
-
 
     return 0;
 }
