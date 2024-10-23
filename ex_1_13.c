@@ -1,5 +1,5 @@
 /*
-13. dados a renda do consumidor e o pre¸o de um bem, calcule a quantidade de demandada
+13. dados a renda do consumidor e o preço de um bem, calcule a quantidade de demandada
 deste bem, sabendo que sua função de demanda é dada por q = renda/preco.
 */
 

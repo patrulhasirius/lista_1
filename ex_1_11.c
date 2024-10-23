@@ -7,17 +7,16 @@ int main() {
     // array para não ter que criar 4 variáveis
     float numeros[4] = {0};
 
-    // essas 4 operações poderiam ser um loop
     printf("primeiro: ");
     scanf("%f", &numeros[0]);
 
     printf("segundo: ");
     scanf("%f", &numeros[1]);
 
-    printf("primeiro: ");
+    printf("terceiro: ");
     scanf("%f", &numeros[2]);
 
-    printf("primeiro: ");
+    printf("quarto: ");
     scanf("%f", &numeros[3]);
 
     float media = ( numeros[0] + numeros[1] + numeros[2] + numeros[3]) /4;

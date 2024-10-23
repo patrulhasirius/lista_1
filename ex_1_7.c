@@ -18,9 +18,9 @@ int main() {
     printf("razão: ");
     scanf("%f", &razao);
 
-    float final = primeiro * pow(razao, (float)enesimo);
+    float final = primeiro * pow(razao, (float)enesimo - 1);
 
-    float soma = primeiro * (pow(razao, (float)enesimo + 1) -1) / (razao - 1) ;
+    float soma = primeiro * (pow(razao, (float)enesimo) -1) / (razao - 1) ;
 
     printf("Número final: %f\n", final);
     printf("soma: %f\n", soma);
