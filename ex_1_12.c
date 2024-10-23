@@ -10,14 +10,14 @@ int main() {
     float raio = 0;
 
     printf("raio: ");
-    scanf("%lf", &raio);
+    scanf("%f", &raio);
 
     // o math.h define PI
     float area = M_PI * raio * raio;
     float perimetro  = 2 * M_PI * raio;
 
-    printf("área: %lf\n", area);
-    printf("perímetro: %lf\n", perimetro);
+    printf("área: %f\n", area);
+    printf("perímetro: %f\n", perimetro);
 
     return 0;
 }

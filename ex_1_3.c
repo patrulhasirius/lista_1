@@ -9,11 +9,11 @@ int main() {
     float sec_num = 0;
 
     printf("Escreva o primeiro número: ");
-    scanf("%lf", &first_num);
+    scanf("%f", &first_num);
     printf("Escreva o segundo número: ");
-    scanf("%lf", &sec_num);
+    scanf("%f", &sec_num);
     
-    printf("o resultado é: %lf\n", first_num + sec_num);
+    printf("o resultado é: %f\n", first_num + sec_num);
 
     return 0;
 }

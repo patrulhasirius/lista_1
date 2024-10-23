@@ -18,10 +18,10 @@ int main() {
     Pessoa pessoa = {0};
 
     printf("Peso (em kg): ");
-    scanf("%lf", &pessoa.peso);
+    scanf("%f", &pessoa.peso);
 
     printf("Altura (em m): ");
-    scanf("%lf", &pessoa.altura);
+    scanf("%f", &pessoa.altura);
 
     pessoa.imc = pessoa.peso / (pessoa.altura * pessoa.altura);
 
@@ -37,7 +37,7 @@ int main() {
         strcat(condicao, "obeso");
     }
 
-    printf("O IMC é %.2lf e a condição é ", pessoa.imc);
+    printf("O IMC é %.2f e a condição é ", pessoa.imc);
     fputs(condicao, stdout);
     printf("\n");
 

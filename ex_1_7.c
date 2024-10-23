@@ -13,17 +13,17 @@ int main() {
     scanf("%d", &enesimo);
 
     printf("primeiro número: ");
-    scanf("%lf", &primeiro);
+    scanf("%f", &primeiro);
 
     printf("razão: ");
-    scanf("%lf", &razao);
+    scanf("%f", &razao);
 
     float final = primeiro * pow(razao, (float)enesimo);
 
     float soma = primeiro * (pow(razao, (float)enesimo + 1) -1) / (razao - 1) ;
 
-    printf("Número final: %lf\n", final);
-    printf("soma: %lf\n", soma);
+    printf("Número final: %f\n", final);
+    printf("soma: %f\n", soma);
 
     return 0;
 }

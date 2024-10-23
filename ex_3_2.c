@@ -20,7 +20,7 @@ int main() {
         resultado = interm;
     }
 
-    printf("Resultado: %lf\n", resultado);
+    printf("Resultado: %f\n", resultado);
 
     return 0;
 }

@@ -14,12 +14,12 @@ int main() {
     scanf("%d", &grau);
 
     printf("X: ");
-    scanf("%lf", &x);
+    scanf("%f", &x);
 
     int i = 0;
     for(i = 0; i < grau; i++) {
         printf("a%d: ", i);
-        scanf("%lf", coefs + i);
+        scanf("%f", coefs + i);
     }
 
     float accum = 0;
@@ -30,7 +30,7 @@ int main() {
         interm *= x;
     }
 
-    printf("Total: %lf\n", accum);
+    printf("Total: %f\n", accum);
 
     return 0;
 }

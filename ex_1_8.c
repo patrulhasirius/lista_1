@@ -8,14 +8,14 @@ int main() {
     float a = 0, b = 0;
 
     printf("a: ");
-    scanf("%lf", &a);
+    scanf("%f", &a);
 
     printf("b: ");
-    scanf("%lf", &b);
+    scanf("%f", &b);
 
     float solucao = b / a;
 
-    printf("solução: %lf\n", solucao);
+    printf("solução: %f\n", solucao);
 
     return 0;
 }

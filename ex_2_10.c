@@ -28,14 +28,14 @@ int main() {
     float horas = 0;
 
     printf("Quantidade de horas trabalhadas: ");
-    scanf("%lf", &horas);
+    scanf("%f", &horas);
 
     float salario_bruto = 20 * horas;
 
     float salario_liquido = salario_bruto - calc_desconto(salario_bruto);
 
 
-    printf("O salário líquido é: %.2lf\n", salario_liquido);
+    printf("O salário líquido é: %.2f\n", salario_liquido);
 
     return 0;
 }

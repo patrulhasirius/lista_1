@@ -15,19 +15,19 @@ int main() {
     float a = 0, b = 0, c = 0;
 
     printf("a: ");
-    scanf("%lf", &a);
+    scanf("%f", &a);
 
     printf("b: ");
-    scanf("%lf", &b);
+    scanf("%f", &b);
 
     printf("c: ");
-    scanf("%lf", &c);
+    scanf("%f", &c);
 
     if (a > b) { swap(&a, &b);};
     if (b > c) { swap(&b, &c);};
     if (a > b) { swap(&a, &b);};
 
-    printf("%lf\n%lf\n%lf\n", a, b, c);
+    printf("%f\n%f\n%f\n", a, b, c);
 
     return 0;
 }

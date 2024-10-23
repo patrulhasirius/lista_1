@@ -14,12 +14,12 @@ int main() {
     int i = 0;
     for(i = 0; i < n; i++) {
         printf("Número %u: ", i + 1);
-        scanf("%lf", numeros + i);
+        scanf("%f", numeros + i);
     }
 
     for(i = 0; i < n; i++) {
-        printf("%lf\n", numeros[i] * numeros[i] * numeros[i]);
-        printf("%lf\n", powf(numeros[i], 1.0/3.0));
+        printf("%f\n", numeros[i] * numeros[i] * numeros[i]);
+        printf("%f\n", powf(numeros[i], 1.0/3.0));
     }
 
     return 0;

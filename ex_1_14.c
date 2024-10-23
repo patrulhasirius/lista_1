@@ -17,20 +17,20 @@ int main() {
 
     // essas 4 operações poderiam ser um loop
     printf("Ponto 1 x: ");
-    scanf("%lf", &ponto_1.x);
+    scanf("%f", &ponto_1.x);
 
     printf("Ponto 1 y: ");
-    scanf("%lf", &ponto_1.y);
+    scanf("%f", &ponto_1.y);
 
     printf("Ponto 2 x: ");
-    scanf("%lf", &ponto_2.x);
+    scanf("%f", &ponto_2.x);
 
     printf("Ponto 2 y: ");
-    scanf("%lf", &ponto_2.y);
+    scanf("%f", &ponto_2.y);
 
     float distancia = sqrt(pow(ponto_1.x - ponto_2.x, 2) + pow(ponto_1.y - ponto_2.y, 2));
 
-    printf("Distância: %lf\n", distancia);
+    printf("Distância: %f\n", distancia);
 
     return 0;
 }

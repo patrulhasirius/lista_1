@@ -14,14 +14,14 @@ int main() {
     scanf("%d", &prazo);
 
     printf("capital: ");
-    scanf("%lf", &capital);
+    scanf("%f", &capital);
 
     printf("juros: ");
-    scanf("%lf", &juros);
+    scanf("%f", &juros);
 
     float capitalizado = capital * powf((1 + juros), prazo);
 
-    printf("valor capitalizado: %lf\n", capitalizado);
+    printf("valor capitalizado: %f\n", capitalizado);
 
     return 0;
 }

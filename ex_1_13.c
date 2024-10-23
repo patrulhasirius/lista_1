@@ -9,15 +9,15 @@ int main() {
     float renda = 0, preco = 0;
 
     printf("Renda: ");
-    scanf("%lf", &renda);
+    scanf("%f", &renda);
 
 
     printf("Preço: ");
-    scanf("%lf", &preco);
+    scanf("%f", &preco);
 
    float demanda = renda / preco;
 
-   printf("Demanda: %lf\n", demanda);
+   printf("Demanda: %f\n", demanda);
 
     return 0;
 }

@@ -9,20 +9,20 @@ int main() {
 
     // essas 4 operações poderiam ser um loop
     printf("primeiro: ");
-    scanf("%lf", &numeros[0]);
+    scanf("%f", &numeros[0]);
 
     printf("segundo: ");
-    scanf("%lf", &numeros[1]);
+    scanf("%f", &numeros[1]);
 
     printf("primeiro: ");
-    scanf("%lf", &numeros[2]);
+    scanf("%f", &numeros[2]);
 
     printf("primeiro: ");
-    scanf("%lf", &numeros[3]);
+    scanf("%f", &numeros[3]);
 
     float media = ( numeros[0] + numeros[1] + numeros[2] + numeros[3]) /4;
 
-    printf("Resultado: %lf\n", media);
+    printf("Resultado: %f\n", media);
 
     return 0;
 }

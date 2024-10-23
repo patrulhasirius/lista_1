@@ -9,13 +9,13 @@ int main() {
     float a = 0, b = 0, c = 0;
 
     printf("a: ");
-    scanf("%lf", &a);
+    scanf("%f", &a);
 
     printf("b: ");
-    scanf("%lf", &b);
+    scanf("%f", &b);
 
     printf("c: ");
-    scanf("%lf", &c);
+    scanf("%f", &c);
 
     float delta = sqrt( b * b - (4 * a * c));
 
@@ -23,8 +23,8 @@ int main() {
     float resultado_1 = (2 * c) / (-b + delta);
     float resultado_2 = (2 * c) / (-b - delta);
 
-    printf("Primeiro resultado: %lf\n", resultado_1);
-    printf("Segundo resultado: %lf\n", resultado_2);
+    printf("Primeiro resultado: %f\n", resultado_1);
+    printf("Segundo resultado: %f\n", resultado_2);
 
     return 0;
 }

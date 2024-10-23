@@ -11,7 +11,7 @@ int main() {
     float numero = 0;
 
     printf("Número: ");
-    scanf("%lf", &numero);
+    scanf("%f", &numero);
 
     if (floor(numero) != numero | numero < 0) {
         printf("Este número não é válido.\n");
