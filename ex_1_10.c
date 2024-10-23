@@ -8,7 +8,7 @@ na tela o valor capitalizado.
 
 int main() {
     int prazo = 0;
-    double capital = 0, juros = 0;
+    float capital = 0, juros = 0;
 
     printf("prazo: ");
     scanf("%d", &prazo);
@@ -19,7 +19,7 @@ int main() {
     printf("juros: ");
     scanf("%lf", &juros);
 
-    double capitalizado = capital * powf((1 + juros), prazo);
+    float capitalizado = capital * powf((1 + juros), prazo);
 
     printf("valor capitalizado: %lf\n", capitalizado);
 

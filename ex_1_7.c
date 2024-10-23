@@ -7,7 +7,7 @@
 
 int main() {
     int enesimo = 0;
-    double razao = 0, primeiro = 0;
+    float razao = 0, primeiro = 0;
 
     printf("enésimo número: ");
     scanf("%d", &enesimo);
@@ -18,9 +18,9 @@ int main() {
     printf("razão: ");
     scanf("%lf", &razao);
 
-    double final = primeiro * pow(razao, (double)enesimo);
+    float final = primeiro * pow(razao, (float)enesimo);
 
-    double soma = primeiro * (pow(razao, (double)enesimo + 1) -1) / (razao - 1) ;
+    float soma = primeiro * (pow(razao, (float)enesimo + 1) -1) / (razao - 1) ;
 
     printf("Número final: %lf\n", final);
     printf("soma: %lf\n", soma);

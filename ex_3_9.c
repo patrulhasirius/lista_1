@@ -9,7 +9,7 @@
 #define n 6
 
 int main() {
-    double numeros[n] = {0};
+    float numeros[n] = {0};
 
     int i = 0;
     for(i = 0; i < n; i++) {

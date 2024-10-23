@@ -8,8 +8,8 @@ dois pontos.
 #include <stdio.h>
 
 typedef struct {
-    double x;
-    double y;
+    float x;
+    float y;
 } Ponto;
 
 int main() {
@@ -28,7 +28,7 @@ int main() {
     printf("Ponto 2 y: ");
     scanf("%lf", &ponto_2.y);
 
-    double distancia = sqrt(pow(ponto_1.x - ponto_2.x, 2) + pow(ponto_1.y - ponto_2.y, 2));
+    float distancia = sqrt(pow(ponto_1.x - ponto_2.x, 2) + pow(ponto_1.y - ponto_2.y, 2));
 
     printf("Distância: %lf\n", distancia);
 

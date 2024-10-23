@@ -8,9 +8,9 @@ essa pessoa de acordo com a tabela abaixo e escreva na tela a condição da pess
 
 typedef struct
 {
-    double peso;
-    double altura;
-    double imc;
+    float peso;
+    float altura;
+    float imc;
 } Pessoa;
 
 

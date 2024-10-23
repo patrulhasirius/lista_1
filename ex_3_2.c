@@ -7,15 +7,15 @@ para o cálculo da raiz quadrada do número a é dado pela sequência
 
 int main() {
     int numero = 0;
-    double resultado = 10;
+    float resultado = 10;
 
     printf("Número: ");
     scanf("%u", &numero);
 
     int  i = 0;
     for(i = 0; i <= 100000; i++) {
-        double interm = (resultado + numero / resultado) / 2;
-        // quebra o loop quando chega no limite de precisão do double
+        float interm = (resultado + numero / resultado) / 2;
+        // quebra o loop quando chega no limite de precisão do float
         if (interm == resultado) {break;};
         resultado = interm;
     }

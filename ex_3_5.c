@@ -7,7 +7,7 @@ pelo usuário.
 
 const int n = 10;
 int main() {
-    double init = 0, razao = 0;
+    float init = 0, razao = 0;
     printf("Razão: ");
     scanf("%lf", &razao);
 

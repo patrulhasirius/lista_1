@@ -6,8 +6,8 @@ determine o salário líquido do empregado.
 
 #include <stdio.h>
 
-double calc_desconto(double bruto) {
-    double desconto = 0;
+float calc_desconto(float bruto) {
+    float desconto = 0;
     if (bruto > 5000) {
         desconto += (bruto - 5000) * 0.35;
         bruto = 5000;
@@ -25,14 +25,14 @@ double calc_desconto(double bruto) {
 }
 
 int main() {
-    double horas = 0;
+    float horas = 0;
 
     printf("Quantidade de horas trabalhadas: ");
     scanf("%lf", &horas);
 
-    double salario_bruto = 20 * horas;
+    float salario_bruto = 20 * horas;
 
-    double salario_liquido = salario_bruto - calc_desconto(salario_bruto);
+    float salario_liquido = salario_bruto - calc_desconto(salario_bruto);
 
 
     printf("O salário líquido é: %.2lf\n", salario_liquido);

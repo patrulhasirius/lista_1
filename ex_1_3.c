@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 int main() {
-    double first_num = 0;
-    double sec_num = 0;
+    float first_num = 0;
+    float sec_num = 0;
 
     printf("Escreva o primeiro número: ");
     scanf("%lf", &first_num);

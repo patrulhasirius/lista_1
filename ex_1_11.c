@@ -5,7 +5,7 @@
 
 int main() {
     // array para não ter que criar 4 variáveis
-    double numeros[4] = {0};
+    float numeros[4] = {0};
 
     // essas 4 operações poderiam ser um loop
     printf("primeiro: ");
@@ -20,7 +20,7 @@ int main() {
     printf("primeiro: ");
     scanf("%lf", &numeros[3]);
 
-    double media = ( numeros[0] + numeros[1] + numeros[2] + numeros[3]) /4;
+    float media = ( numeros[0] + numeros[1] + numeros[2] + numeros[3]) /4;
 
     printf("Resultado: %lf\n", media);
 

@@ -5,14 +5,14 @@
 #include <stdio.h>
 
 // que função feia
-void swap(double* a, double* b) {
-    double temp = *a;
+void swap(float* a, float* b) {
+    float temp = *a;
     *a = *b;
     *b = temp;
 }
 
 int main() {
-    double a = 0, b = 0, c = 0;
+    float a = 0, b = 0, c = 0;
 
     printf("a: ");
     scanf("%lf", &a);

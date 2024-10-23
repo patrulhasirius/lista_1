@@ -8,7 +8,7 @@ representa o coeficiente do termo de grau i.
 
 int main() {
     int grau = 0;
-    double coefs[256], x = 0;
+    float coefs[256], x = 0;
 
     printf("Grau: ");
     scanf("%d", &grau);
@@ -22,8 +22,8 @@ int main() {
         scanf("%lf", coefs + i);
     }
 
-    double accum = 0;
-    double interm = 1;
+    float accum = 0;
+    float interm = 1;
 
     for (i = 0; i < grau; i++) {
         accum += interm * coefs[i];

@@ -8,7 +8,7 @@ ou negativos, imprima na tela ”Este número não ´e válido.”
 #include <stdio.h>
 
 int main() {
-    double numero = 0;
+    float numero = 0;
 
     printf("Número: ");
     scanf("%lf", &numero);

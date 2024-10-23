@@ -5,7 +5,7 @@
 
 int main() {
 
-    double a = 0, b = 0;
+    float a = 0, b = 0;
 
     printf("a: ");
     scanf("%lf", &a);
@@ -13,7 +13,7 @@ int main() {
     printf("b: ");
     scanf("%lf", &b);
 
-    double solucao = b / a;
+    float solucao = b / a;
 
     printf("solução: %lf\n", solucao);
 
