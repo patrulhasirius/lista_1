@@ -4,6 +4,7 @@ primeiro termo e a razão são dados pelo usuário.
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int enesimo = 0;
@@ -13,18 +14,18 @@ int main() {
     scanf("%d", &enesimo);
 
     printf("primeiro número: ");
-    scanf("%lf", &primeiro);
+    scanf("%f", &primeiro);
 
     printf("razão: ");
-    scanf("%lf", &razao);
+    scanf("%f", &razao);
 
     // o cast é pra garantir que o compilador não converta tudo para int
-    float final = primeiro + (float)enesimo * razao;
+    float final =  primeiro * powf(razao, (float)enesimo - 1);
 
-    float soma = ((float)enesimo + 1) * ((primeiro + final) / 2);
+    float soma = primeiro * (powf(razao, enesimo) -1) / (primeiro - 1);
 
-    printf("Número final: %lf\n", final);
-    printf("soma: %lf\n", soma);
+    printf("Número final: %f\n", final);
+    printf("soma: %f\n", soma);
 
     return 0;
 }
